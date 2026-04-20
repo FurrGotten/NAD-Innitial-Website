@@ -5,11 +5,17 @@ type windows = {light?: boolean, image?: string | React.ElementType}[]
 const ultralux: windows = [{light: true}, {}, {}, {light: true}];
 const lux: windows = [{light: true}, {}, {light: true}, {}, {}, {light: true}];
 
-export const Building = () => {
+export const Building = ({alt = true} : {alt: boolean}) => {
 
   const rooms: windows = Array.from({length: 104}, (_, i) => ({
     light: i < 25
   })).sort(() => Math.random() - 0.5);
+
+  if (alt) return (<section className="relative min-w-full h-[3240px] flex justify-center">
+    <div className="w-[80%] min-w-[400px] pt-[65vh] h-full flex items-center flex-col">
+      GENERATE NEW YORK BROOKLYN CITY SKYLINE HERE
+    </div>
+  </section>)
 
   return (<section className="relative min-w-full h-[3240px] flex justify-center">
     <div className="w-[80%] min-w-[400px] pt-[65vh] h-full flex items-center flex-col">

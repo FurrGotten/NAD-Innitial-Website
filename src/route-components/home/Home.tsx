@@ -20,7 +20,7 @@ export function Home() {
 
         {/* Content: Foreground */}
       </div>
-      <div className="absolute top-0 w-full h-fit z-10 mt-[1200px] text-white text-9xl font-black text-center">
+      <div className="absolute top-0 w-full h-fit z-10 mt-[200px] text-white text-9xl font-black text-center">
         <div className="flex justify-center">
           <img src={ConHeader} alt="NEW ANTHODAM"
                // className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
