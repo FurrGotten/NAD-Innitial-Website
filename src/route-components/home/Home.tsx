@@ -27,7 +27,7 @@ export function Home() {
                className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_0_25px_rgba(0,0,0,0.5)]"
           />
         </div>
-        <div className="relative w-full h-fit mt-[1000px]">
+        <div className="relative w-full h-fit mt-[500px]">
           <ConstructionBg />
           <div className="relative text-center w-full min-h-[4000px] h-fit flex flex-col items-center pt-[100px]">
             <div

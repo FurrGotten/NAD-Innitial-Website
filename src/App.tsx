@@ -4,7 +4,7 @@ import {Home} from './route-components';
 
 function App() {
   const isGitHubPages = window.location.hostname.includes('github.io');
-  const Router = isGitHubPages ? HashRouter : BrowserRouter;
+  const Router = isGitHubPages ? BrowserRouter : HashRouter;
 
   return (
     <Router>
