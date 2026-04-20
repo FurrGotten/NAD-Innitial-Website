@@ -20,14 +20,16 @@ export function Home() {
 
         {/* Content: Foreground */}
       </div>
-      <div className="absolute top-0 w-full h-fit z-10 mt-[200px] text-white text-9xl font-black text-center">
-        <div className="flex justify-center">
-          <img src={ConHeader} alt="NEW ANTHODAM"
-               // className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
-               className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_0_25px_rgba(0,0,0,0.5)]"
-          />
+      <div className="absolute top-0 w-full h-fit text-white text-9xl font-black text-center">
+        <div className="flex justify-center h-[100vh] z-10 pt-[200px]">
+          <div className="img-holder">
+            <img src={ConHeader} alt="NEW ANTHODAM"
+              // className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
+                 className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_0_25px_rgba(0,0,0,0.5)]"
+            />
+          </div>
         </div>
-        <div className="relative w-full h-fit mt-[500px]">
+        <div className="relative w-full h-fit">
           <ConstructionBg />
           <div className="relative text-center w-full min-h-[4000px] h-fit flex flex-col items-center pt-[100px]">
             <div
