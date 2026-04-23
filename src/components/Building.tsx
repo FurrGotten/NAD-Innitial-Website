@@ -16,7 +16,8 @@ export const Building = ({alt = true}: {alt?: boolean}) => {
       <svg
         viewBox="0 0 1440 600"
         xmlns="http://www.w3.org/2000/svg"
-        className="mt-[60vh]  min-w-[100vw] min-h-[50vh]"
+        className="absolute bottom-[calc(3240px-145vh)] right-0 max-sm:h-[60vh]"
+        style={{aspectRatio: '12/5'}}
         preserveAspectRatio="xMidYMax meet"
       >
         <defs>

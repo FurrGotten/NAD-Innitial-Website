@@ -22,40 +22,39 @@ export function Home() {
         {/* Content: Foreground */}
       </div>
       <div className="absolute top-0 w-full h-[100vh] text-white text-9xl font-black text-center">
-        <div className="flex flex-col items-center justify-between h-[100vh] z-10 pt-[50px] pb-[150px] rammetto">
+        <div className="flex flex-col items-center justify-between h-[100vh] z-10 pt-[50px] pb-[150px] max-[1000px]:pt-5 max-[1000px]:pb-6 rammetto">
           <div className="img-holder">
             <img src={ConHeader} alt="NEW ANTHODAM"
-              // className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
-                 className="drop-shadow-[0_0_25px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_0_25px_rgba(0,0,0,0.5)] max-w-[1200px]"
+                 className="drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)] dark:drop-shadow-[0_0_25px_rgba(0,0,0,0.5)] max-w-[1200px] max-[1000px]:max-w-[85vw]"
             />
           </div>
-          <div className="header-note text-5xl">
+          <div className="header-note text-5xl max-[1000px]:text-xl max-[1000px]:px-4 drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]">
             A new convention is hitting the Big Apple…
           </div>
-          <div className="subs-row flex w-full justify-around">
+          <div className="subs-row flex w-full justify-around max-[1000px]:flex-col max-[1000px]:items-center max-[1000px]:gap-2 drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]">
             <div className="flex-col items-center">
-              <div className="text-3xl">
+              <div className="text-3xl max-[1000px]:text-lg">
                 Time:
               </div>
-              <div className="text-2xl">November 19-22, 2026</div>
+              <div className="text-2xl max-[1000px]:text-sm">November 19-22, 2026</div>
             </div>
             <div className="flex-col items-center">
-              <div className="text-3xl">
+              <div className="text-3xl max-[1000px]:text-lg">
                 Hotel:
               </div>
-              <div className="text-2xl">The New York Marriott at the Brooklyn Bridge</div>
+              <div className="text-2xl max-[1000px]:text-sm max-[1000px]:px-4">The New York Marriott at the Brooklyn Bridge</div>
             </div>
           </div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScEX4aVXM6VYAcD14-rSeMdyZ0LObskUgDXyxgOY0vq-B1FgA/viewform?usp=publish-editor " target="_blank">
             <div
-              className="sign-container bg-white p-2 rounded-lg shadow-lg w-[50vw] max-w-[95vw]">
-              <div className="segment bg-[#002D56] hover:bg-[#005cb3] w-full text-center text-3xl p-2">
+              className="sign-container bg-white p-2 rounded-lg shadow-lg w-[50vw] max-w-[95vw] max-[1000px]:w-[85vw] drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)] hover:drop-shadow-[0_5px_5px_rgba(0,0,0,0.3)]">
+              <div className="segment bg-[#002D56] hover:bg-[#005cb3] w-full text-center text-3xl p-2 max-[1000px]:text-lg">
                 Sign up for mailing list!
               </div>
             </div>
           </a>
-          <div className="social-row flex gap-8 justify-center items-center">
+          <div className="social-row flex gap-8 justify-center items-center drop-shadow-[0_2px_2px_rgba(0,0,0,0.3)]">
             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter"
                className="opacity-90 hover:opacity-60 transition-opacity">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="36" height="36">
