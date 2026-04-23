@@ -12,7 +12,7 @@ export const Building = ({alt = true}: {alt?: boolean}) => {
   })).sort(() => Math.random() - 0.5);
 
   if (alt) return (
-    <section className="relative h-[3240px] flex justify-end items-start">
+    <section className="relative h-[3240px] flex justify-end items-start pt-[10vh]">
       <svg
         viewBox="0 0 1440 600"
         xmlns="http://www.w3.org/2000/svg"
